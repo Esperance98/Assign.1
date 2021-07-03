@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fifi{
+    color: white;
+
+
+}
+#jojo{
+    color: darkorange;
+
+}
+#fifo{
+    text-transform: lowercase;
+    font-size: smaller;
+    color: white;
+
+}
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+#bgImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -15;
+}
+
+#topNav{
+    display: flex;
+    width: 100vw;
+    padding-inline: 10vw;
+    padding-block: 2vh;
+    background: rgb(48, 44, 44);
+    color: white;
+    font-size: small;
+}
+.navCol{
+    width: 30%;
+}
+.navCol a{
+    margin-right: 3px;
+    cursor: pointer;
+}
+#middle{
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+#leftnav{
+    text-align: right;
+}
+
+#mainTxt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: left;
+    height: 100%;
+    padding-left: 2em;
+}
+#subBtn{
+    width: 200px;
+    padding: 5px;
+    background: chartreuse;
+    color: darkred;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 3px;
+}
